@@ -5,49 +5,47 @@
       <meta charset="UTF-8">
       <meta name="viewport" content="width=devcie-width, inital-scale=1">
       <link rel="stylesheet" href="style.css">
-      <script scr="script.js" defer></script> 
+      <script src="script.js" defer></script> 
    </head>
 
    <body>
       <header>
 	 <h1>Puzzle 15</h1>
 	 <button type="button">ScoreBoard</button> 
-	 <button onClick="toggleTheme()">Theme<i class="fa fa-sun-o"></button>
+	 <button onClick="toggleTheme()">Theme</button>
       </header>
 
       <main> 
-	 <!--Basic description of puzzle-->
-	 <div class="info"> 
-	    <p>Info<p>
-	 </div>
-
 	 <!--Puzzle gameplay, action btns, and stats-->
 	 <div class="board">
-	    <p>Game Board</p>
 	    <div class="modes">
 	       <button>mode#1</button>
 	       <button>mode#2</button>
 	       <button>mode#3</button>
 	    </div>
 
-	    <div class="stats">
-	       <p>Stats</p>
+	    <div class="puzzle">
+	       <p>puzzle</p>
 	    </div>
-
-	    <!--Puzzle-->
-	    <div>
-	       <div class="puzzle">
-		  <p>puzzle</p>
-	       </div>
-
-	       <div class="actions">
-		  <button>start</button>
-		  <button>reset</button>
-		  <button>hint</button>
-	       </div>
-	    </div>
-
 	 </div> 
+
+	 <!--Sideabr-->
+	 <section>
+	    <div class="stats">
+
+	    </div>
+
+	    <div class="actions">
+	       <button>start</button>
+	       <button>reset</button>
+	       <button>hint</button>
+	    </div>
+
+	    <div class="leaderboard">
+
+	    </div> 
+	 </section>
+
       </main>
 
       <footer>
